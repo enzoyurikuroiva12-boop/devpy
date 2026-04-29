@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@vercel/speed-insights": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lucide-react": "^0.284.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "lucide-react": "^0.284.0"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
