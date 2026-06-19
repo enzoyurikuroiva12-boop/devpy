@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import './styles.css';
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
           ))}
         </div>
       </section>
+      <SpeedInsights />
     </div>
   );
 }
